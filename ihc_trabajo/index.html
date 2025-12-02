@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finder - Amistades auténticas</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; color:#333; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:15px 40px; border-bottom:1px solid #ddd; }
+    header nav a { margin:0 10px; text-decoration:none; color:#333; }
+    .hero { background:#ff6b35; color:white; padding:80px 40px; text-align:center; }
+    .btn { padding:12px 25px; border:none; cursor:pointer; border-radius:6px; font-size:15px; }
+    .btn-white { background:white; color:#ff6b35; margin-right:10px; }
+    .btn-blue { background:#4d6bff; color:white; }
+    .section { padding:60px 40px; max-width:1100px; margin:auto; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:20px; }
+    .card { padding:20px; border:1px solid #ddd; border-radius:10px; background:white; }
+    .title-center { text-align:center; margin-bottom:40px; }
+    .funciona { display:flex; justify-content:space-between; flex-wrap:wrap; gap:40px; }
+    .testimonios { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+    .testimonio { padding:20px; background:#f3f6ff; border-radius:10px; width:280px; }
+    footer { text-align:center; padding:30px; margin-top:50px; border-top:1px solid #ddd; }
+    .input { width:100%; padding:12px; border:1px solid #ccc; border-radius:6px; margin-bottom:15px; }
+    .tags span { padding:8px 15px; background:#eee; border-radius:20px; margin-right:10px; cursor:pointer; display:inline-block; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 class="logo" style="display:flex; align-items:center; gap:10px;">
+    <img src="imagen_logo.jpg" alt="Logo Finder" style="width:50px; height:50px;">
+    Finder
+</h1>
+
+  <nav>
+    
+    <li><a href="#" id="btnContacto">Contacto</a></li>
+
+  </nav>
+</header>
+
+
+<section class="hero">
+<h1>Encuentra amistades auténticas</h1>
+ <p>Conéctate en un espacio seguro, inmersivo y lleno de oportunidades</p>
+ 
+ <button class="btn btn-white">Ver demo AR</button>
+ 
+ <a href="#registro" class="btn btn-blue">Regístrate gratis</a>
+</section>
+
+<section class="section">
+  <h2 class="title-center">Revolucionando las Conexiones Auténticas</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    Finder es un sistema web y móvil innovador y competente que facilita el acceso a potenciales nuevas amistades con personas de diferentes ubicaciones y
+permite gestionarlas de manera eficiente y saludable desde el inicio. Nuestra propuesta apuesta por la integración de la realidad aumentada (AR) como
+herramienta diferenciadora frente a la competencia, orientando as interacciones sociales de los usuarios a través de experiencias inmersivas que
+favorecen la construccion de vinculos auténticos
+  </p>
+<section class="section">
+  <div class="box-container">
+
+    <div class="info-box">
+      <img src="imagen_vision.png" alt="">
+      <div>
+        <h3>Nuestra Visión</h3>
+        <p>Ser la plataforma líder en gestión de amistades a nivel nacional.</p>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <img src="imagen_mision.png" alt="">
+      <div>
+        <h3>Nuestra Misión</h3>
+        <p>Facilitar a jóvenes y profesionales encontrar amistades genuinas.</p>
+      </div>
+    </div>
+
+    <div class="info-box center-box">
+      <img src="imagen_valores.png" alt="">
+      <div>
+        <h3>Nuestros Valores</h3>
+        <p>Transparencia, Empatía, Seguridad, y Caridad.</p>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <img src="imagen_problema.png" alt="">
+      <div>
+        <h3>El Problema</h3>
+        <p>Las redes sociales actuales fomentan conexiones superfiaciales. Es difícil encontrar amistades genuinas basadas en intereses reales.</p>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <img src="imagen_solucion.jpg" alt="">
+      <div>
+        <h3>La Solución</h3>
+        <p>Matching inteligente por intereses reales, experiencias en realidad aumentada y verificación de autenticidad para conexiones genuinas.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="como-funciona" style="text-align:center; padding:40px 20px; font-family:Arial, sans-serif;">
+  <h2>¿Cómo funciona?</h2>
+  <p style="font-size:18px; margin-top:10px;">Tres simples pasos para comenzar tu viaje hacia amistades auténticas</p>
+
+  <div style="display:flex; justify-content:center; gap:40px; margin-top:30px; flex-wrap:wrap;">
+   
+    <div style="max-width:250px;">
+      <h3><strong>1. Crea tu perfil</strong></h3>
+      <p style="color:gray;">Completa tu perfil con tus intereses reales</p>
+    </div>
+
+    <div style="max-width:250px;">
+      <h3><strong>2. Encuentra matches</strong></h3>
+      <p style="color:gray;">Conecta con personas afines a ti</p>
+    </div>
+
+    <div style="max-width:250px;">
+      <h3><strong>3. Conecta y socializa</strong></h3>
+      <p style="color:gray;">Inicia conversaciones y construye amistades</p>
+    </div>
+  </div>
+</section>
+
+<section id="registro" class="section" style="display:flex; align-items:center; justify-content:space-between; gap:40px;">
+
+  <div style="flex:1;">
+    <h2 style="font-size:32px; margin-bottom:10px;">¡Únete a nosotros!</h2>
+    <p style="font-size:18px; color:#555;">
+      Regístrate y comienza tu viaje hacia nuevas amistades
+    </p>
+  </div>
+
+  <div style="flex:1; background:#fff; padding:30px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+    
+    <input class="input" type="text" id="nombre" placeholder="Ingresa tu nombre" />
+    <input class="input" type="email" id="correo" placeholder="Correo electrónico" />
+
+    <p style="margin:10px 0;">Intereses:</p>
+    <div id="intereses" class="tags">
+      <span>Deportes</span>
+      <span>Arte</span>
+      <span>Tecnología</span>
+      <span>Música</span>
+    </div>
+
+    <button id="btnRegistrar" class="btn btn-blue" style="margin-top:20px; width:100%;">
+      Registrarse
+    </button>
+
+  </div>
+
+</section>
+
+<section id="perfilUsuario" style="display:none; padding:60px 0;">
+    <div class="perfil-container">
+
+        <div class="perfil-editar">
+            <h2>Editar tu perfil</h2>
+
+            <div class="foto-perfil">
+                <img src="imagen_sincara.png" alt="Foto de perfil">
+                <button class="btn-subir">Cambiar foto</button>
+            </div>
+
+            <label>Nombre:</label>
+            <input type="text" id="editNombre">
+
+            <label>Correo electrónico:</label>
+            <input type="email" id="editCorreo">
+
+            <label>Interés:</label>
+            <input type="text" id="editInteres">
+
+            <button class="btn-guardar">Guardar cambios</button>
+        </div>
+
+        <div class="sugerencias">
+            <h2>Personas sugeridas</h2>
+
+            <div class="card-user">
+                <h3>María López</h3>
+                <p>Edad: 22</p>
+                <p>Correo: maria123@gmail.com</p>
+                <p>Interés: Fútbol</p>
+            </div>
+
+            <button class="btn-match">Hacer Match</button>
+            <button class="btn-reportar">Reportar usuario</button>
+
+            <div class="card-user">
+                <h3>Carlos Ruiz</h3>
+                <p>Edad: 24</p>
+                <p>Correo: carlos456@gmail.com</p>
+                <p>Interés: Música</p>
+            </div>
+
+            <button class="btn-match">Hacer Match</button>
+            <button class="btn-reportar">Reportar usuario</button>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section" style="background:#fafafa;">
+  <h2 class="title-center">Lo que dicen nuestros usuarios</h2>
+  <div class="testimonios">
+    <div class="testimonio">
+  <img src="imagen_lucas.jpg" alt="Lucas" class="foto-testimonio">
+  <strong>Lucas</strong>
+  <p>¡Increíbles experiencias y amistades!</p>
+</div>
+
+<div class="testimonio">
+  <img src="imagen_camila.jpg" alt="Camila" class="foto-testimonio">
+  <strong>Camila</strong>
+  <p>La realidad aumentada hace conocer personas como un juego.</p>
+</div>
+
+<div class="testimonio">
+  <img src="imagen_carlos.jpg" alt="Carlos" class="foto-testimonio">
+  <strong>Carlos</strong>
+  <p>He hecho amigos que comparten mis intereses.</p>
+</div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Síguenos en redes  •  Políticas de privacidad  •  Términos de servicio  •  Contacto</p>
+</footer>
+
+<div id="modalContacto" class="modal">
+  <div class="modal-content">
+
+    <span id="cerrarModal" class="close">&times;</span>
+
+    <h2>¿En qué te ayudo?</h2>
+    <p>Contacta conmigo a través de este formulario y te contestaré en un plazo de 24 horas.</p>
+
+    <div id="mensajeExito" class="mensaje-exito">¡Mensaje enviado con éxito!</div>
+
+    <form id="formContacto">
+      <label>Nombre</label>
+      <input type="text" required>
+
+      <label>Apellido</label>
+      <input type="text" required>
+
+      <label>Correo electrónico</label>
+      <input type="email" required>
+
+      <label>Teléfono</label>
+      <input type="tel" required>
+
+      <label>Mensaje</label>
+      <textarea required></textarea>
+
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<div id="modalConfirmacion" class="modal-confirm">
+    <div class="modal-contenido">
+        <h3>¡Gracias por contactarnos!</h3>
+        <p>Tu mensaje ha sido enviado correctamente.<br>Te responderemos pronto.</p>
+        <button id="btnAceptar">Aceptar</button>
+    </div>
+</div>
+<script src="script.js"></script>
+
+<script>
+document.getElementById("registroForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("registroSeccion").style.display = "none";
+    document.getElementById("perfilUsuario").style.display = "block";
+
+    document.getElementById("editNombre").value = document.getElementById("nombre").value;
+    document.getElementById("editCorreo").value = document.getElementById("correo").value;
+    document.getElementById("editInteres").value = document.getElementById("interes").value;
+});
+</script>
+
+<script>
+
+document.querySelector(".btn-match").addEventListener("click", function () {
+    alert("¡Tú y María ahora son amigos!");
+});
+
+document.querySelector(".btn-reportar").addEventListener("click", function () {
+    alert("Este usuario fue reportado exitosamente, ahora evaluaremos");
+});
+</script>
+
+</body>
+</html>
